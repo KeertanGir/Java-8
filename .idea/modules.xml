@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FuntionalProgramming/FuntionalProgramming.iml" filepath="$PROJECT_DIR$/FuntionalProgramming/FuntionalProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-8.iml" filepath="$PROJECT_DIR$/.idea/Java-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Lambda/Java-Lambda.iml" filepath="$PROJECT_DIR$/Java-Lambda/Java-Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Streams/Java-Streams.iml" filepath="$PROJECT_DIR$/Java-Streams/Java-Streams.iml" />
