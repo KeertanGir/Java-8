@@ -10,9 +10,15 @@ public class FP01Funtional {
         System.out.println(number);
     }
 
+//    private static boolean isEven(int number){
+//        return number%2 ==0;
+//    }
+
     private static void printNumberInFuntional(List<Integer> numbers) {
         numbers.stream()
-                .forEach(FP01Funtional::print);
+//                .filter(FP01Funtional::isEven) // Used With the Function
+                .filter(number -> number%2 ==0) // lambda expression
+                .forEach(FP01Funtional::print); // Method Reference
                 // method reference
     }
 
