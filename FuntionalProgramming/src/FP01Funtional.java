@@ -18,6 +18,7 @@ public class FP01Funtional {
         numbers.stream()
 //                .filter(FP01Funtional::isEven) // Used With the Function
                 .filter(number -> number%2 ==0) // lambda expression
+                .map(number -> number * number)
                 .forEach(FP01Funtional::print); // Method Reference
                 // method reference
     }
